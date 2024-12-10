@@ -1,0 +1,32 @@
+@media (max-width: 900px) {
+    .card {
+        width: 90%;
+    }
+    .coletions-cards {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+@media (max-width: 525px) {
+    .header .reliabe  {
+        font-size: 1.6rem;
+        margin: 12px 0px;
+        
+    }
+    .header .technology {
+        font-size: 1.6rem;
+        margin-bottom: 20px;
+    }
+    .header .description {
+        width: 100%;
+        font-size: 16px;
+        width: 330px;
+    }
+    .container-cards {
+        gap: 10px;
+    }
+}

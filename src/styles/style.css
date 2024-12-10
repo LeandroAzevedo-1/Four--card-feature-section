@@ -1,0 +1,71 @@
+:root {
+    --Cor-Red: #ea5353;
+    --Cor-Cyan: #45d3d3;
+    --Cor-Orange: #fcaf4a;
+    --Cor-Blue: #549ef2;
+}
+.header {
+    text-align: center;
+    margin: 20px;
+}
+.header .reliabe  {
+    font-size: 2rem;
+    color:hsl(229, 6%, 66%);
+    font-weight: 200;
+}
+.header .technology {
+    font-size: 2rem;
+    color: hsl(234, 12%, 34%);
+    font-weight: 600;
+}
+.header .description {
+    color:hsl(229, 6%, 66%);
+    width: 500px;
+    margin: 0 auto;
+    font-size: 14px;
+    padding: 10px 0;
+}
+.container-cards {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.card {
+    width: 320px;
+    height: 200px;
+    box-shadow: 2px 6px 15px 0px rgba(0,0,0,0.27);
+    border-radius: 5px;
+    padding: 25px;
+    position: relative;
+    margin: 10px;
+}
+.card .title-card {
+    margin: 10px 0;
+}
+.card .text-card {
+    color: hsl(229, 6%, 66%);
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+.card img {
+    width: 40px;
+    margin-bottom: 10px;
+    position: absolute;
+    right: 20px;
+}
+.card.first-card {
+    border-top: 5px solid var(--Cor-Cyan);
+}
+.card.first-card-coletions {
+    border-top: 5px solid var(--Cor-Red);
+    margin-bottom: 30px;
+}
+.card.segund-card-coletions {
+    border-top: 5px solid var(--Cor-Orange);
+}
+.card.third-card {
+    border-top: 5px solid var(--Cor-Blue);
+    margin-bottom: 50px;
+}
